@@ -527,6 +527,10 @@ projects:
         - *module_if
         - *module_hic_lpc11u35
         - records/board/dipdap_cc3220sf.yaml
+    lpc11u35_dapter_rhombio_l476dmw1k_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/rhombio_l476dmw1k.yaml        
     stm32f103xb_stm32f103rb_if:
         - *module_if
         - *module_hic_stm32f103xb

@@ -68,6 +68,7 @@ PROJECT_RELEASE_INFO = {
     ("lpc11u35_sscity_if",                          False,      0x0000,     "bin"       ),
     ("lpc11u35_ssci824_if",                         False,      0x0000,     "bin"       ),
     ("lpc11u35_ro359b_if",                          False,      0x0000,     "bin"       ),
+    ("lpc11u35_dapter_rhombio_l476dmw1k_if",        False,      0x0000,     "bin"       ),
     ("k20dx_rbl_if",                                True,       0x5000,     "bin"       ),
     ("k20dx_rblnano_if",                            True,       0x5000,     "bin"       ),
     ("lpc11u35_archlink_if",                        False,      0x0000,     "bin"       ),

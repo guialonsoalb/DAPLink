@@ -1,0 +1,7 @@
+common:
+    sources:
+        board:
+            - source/board/rhombio_l476dmw1k.c
+        family:
+            - source/family/st/stm32l476vg/target.c
+            
