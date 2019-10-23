@@ -26,6 +26,7 @@ const board_info_t g_board_info = {
     .infoVersion = 0x0,
     .board_id = "1500",
     .family_id = kStub_HWReset_FamilyID,
+    .flags = kEnablePageErase|kEnableUnderResetConnect,
     .target_cfg = &target_device,
 };
 

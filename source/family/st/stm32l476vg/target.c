@@ -1,6 +1,6 @@
 /**
  * @file    target.c
- * @brief   Target information for the stm32l486jg
+ * @brief   Target information for the stm32l476vg
  *
  * DAPLink Interface Firmware
  * Copyright (c) 2017-2019, ARM Limited, All Rights Reserved
@@ -33,7 +33,7 @@ target_cfg_t target_device = {
     .flash_regions[0].flags         = kRegionIsDefault,
     .flash_regions[0].flash_algo    = (program_target_t *) &flash,    
     .ram_regions[0].start           = 0x20000000,
-    .ram_regions[0].end             = 0x20000000 + 0x00018000,
-    .ram_regions[1].start           = 0x10000188,
+    .ram_regions[0].end             = 0x20018000,
+	.ram_regions[1].start           = 0x10000000,
     .ram_regions[1].end             = 0x10008000,
 };
